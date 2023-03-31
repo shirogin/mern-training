@@ -1,0 +1,79 @@
+body {
+    background-color: rgb(30, 30, 30);
+    /* the rules of the element*/
+}
+
+h1 {
+    color: rgb(0, 255, 242);
+    background-color: indigo;
+}
+a {
+    border: 1px dashed cadetblue;
+}
+#third {
+    color: white;
+    font-size: 10px;
+}
+
+#third:hover {
+    background-color: beige;
+    color: black;
+    font-size: 40px;
+    margin: 0;
+}
+.diffrent {
+    border-bottom: 2px solid white;
+}
+input[type="checkbox"] {
+    width: 40px;
+    height: 40px;
+}
+
+input[type="checkbox"]:checked {
+    width: 60px !important;
+    height: 60px !important;
+}
+input[type="checkbox"]:nth-of-type(2) {
+    width: 50px;
+    height: 50px;
+}
+
+p,
+a {
+    font-size: 20px;
+}
+div > p {
+    font-size: 30px;
+}
+
+* {
+    color: hotpink;
+    box-sizing: border-box;
+}
+p::first-letter {
+    font-size: 60px;
+}
+
+p::after {
+    content: " ";
+}
+
+.special {
+    margin: 0;
+    padding: 0;
+    border: none;
+    height: 400px;
+    position: relative;
+    background-color: red;
+}
+.special > p {
+    color: white;
+    margin: 0;
+    width: 400px;
+    padding: 0 50px 10px 30px;
+    border: 3px solid black;
+    background-color: blueviolet;
+    position: absolute;
+    top: 10px;
+    left: 50px;
+}

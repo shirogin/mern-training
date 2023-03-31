@@ -1,0 +1,6 @@
+- write a table that contains data presented in the screenshot
+- write a form that will help collect more data (does't have to be working)
+- use only html 
+- use the data in the data.txt (you can add more if you want)
+- the form must have name atribute for each input
+- the form must have a GET method so we can see the result in the url

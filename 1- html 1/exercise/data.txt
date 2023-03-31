@@ -1,0 +1,55 @@
+Full name
+Nick name
+Affiliations
+Devil fruit
+Origin
+Bounty
+Poster
+----------------------------------------------------------------
+Monkey D. Luffy
+Straw Hat
+Straw Hat Pirates
+Gomu Gomu no Mi
+East Blue
+400,000,000
+images/Luffy_Wanted_Poster.webp
+----------------------------------------------------------------    
+Arlong
+Arlong the saw
+Arlong Pirates
+None
+Grand line
+20,000,000
+images/Arlong's_Wanted_Poster.webp
+----------------------------------------------------------------    
+Don Quixote Doflamingo
+Heavenly Demon
+Donquixote Pirates
+Ito Ito no Mi
+Red line
+340,000,000
+images\dofi.jpg
+----------------------------------------------------------------    
+Jinbe
+First Son of the Sea
+Sun Pirates
+None
+Grand line
+438,000,000
+images\Jinbe.webp
+----------------------------------------------------------------    
+Portgas D. Ace
+Fire Fist
+Whitebeard Pirates
+Mera Mera no Mi
+South Blue
+550,000,00
+images\Portgas_D._Ace's_Wanted_Poster.webp
+----------------------------------------------------------------    
+Edward Newgate
+Whitebeard
+Whitebeard Pirates
+Gura Gura no Mi
+Grand line
+5,046,000,000
+images\white=beared.jpg
