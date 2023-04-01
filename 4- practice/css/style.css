@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Play:wght@400;700&display=swap");
+
+:root {
+    --primary-color: #00bfe7;
+    --secondary-color: #0c2b4b;
+    --background-color: #100028;
+    --heading-color: #111111;
+    --para-color: #5c5c5c;
+    --heading-color-2: #323232;
+    --normal-color: #1c1c1c;
+    --background: #f5f5f5;
+    --background-2: #f2f2f2;
+    --border: #ebebeb;
+    --border-1: #e1e1e1;
+    /* --fm-unna: "Unna", serif;
+    --fm-nunito: "Nunito Sans", sans-serif; */
+}
+
+html {
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 12px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Play", sans-serif;
+}
+
+p {
+    color: var(--para-color);
+}
+body {
+    background-color: var(--background-color);
+    margin: 0;
+}
+.container {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    margin: 0 auto;
+}

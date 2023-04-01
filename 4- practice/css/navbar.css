@@ -1,0 +1,79 @@
+/* -------------------------------------Navbar------------------------------------------ */
+#navbar {
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+#navbar .container {
+    align-items: center;
+    justify-content: space-between;
+}
+#navigation {
+    display: flex;
+}
+
+#navbar ul {
+    list-style: none;
+    padding: 0;
+}
+#navigation li {
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    font-size: 1.1rem;
+    margin: 0 1rem;
+    text-transform: uppercase;
+}
+#navigation > li {
+    margin: 0 2rem;
+}
+#navigation > li > a {
+    position: relative;
+    padding: 0.5rem 0;
+}
+#navigation > li > a::after {
+    content: " ";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    right: 50%;
+    height: 2px;
+    background-color: var(--primary-color);
+    transition: left 0.5s ease, right 0.5s ease;
+}
+#navigation > li > a:hover::after,
+#navigation > li > a.active::after {
+    left: 0;
+    right: 0;
+}
+#navbar a {
+    color: white;
+    text-decoration: none;
+}
+.social-media {
+    display: flex;
+    padding-left: 5rem;
+    border-left: 1px solid rgba(255, 255, 255, 0.1);
+}
+.social-media .icon {
+    margin: auto 1rem;
+    font-size: 1.3rem;
+}
+.dropdown {
+    display: none;
+    background-color: white;
+    flex-direction: column;
+}
+#navbar .dropdown a {
+    color: black;
+    font-size: 0.8rem;
+}
+.has-dropdown {
+    position: relative;
+}
+.has-dropdown:hover > .dropdown {
+    display: flex;
+    position: absolute;
+    left: 0;
+    top: 90%;
+}
