@@ -1,15 +1,18 @@
 /* -------------------------------------Navbar------------------------------------------ */
 #navbar {
+    position: absolute;
+    left: 0;
+    top: 0;
     display: flex;
     width: 100%;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 #navbar .container {
     align-items: center;
-    justify-content: space-between;
 }
 #navigation {
     display: flex;
+    margin-left: auto;
 }
 
 #navbar ul {
@@ -17,11 +20,12 @@
     padding: 0;
 }
 #navigation li {
-    height: 4rem;
+    height: 6rem;
+    font-family: "Play", sans-serif;
     display: flex;
     align-items: center;
-    font-size: 1.1rem;
-    margin: 0 1rem;
+    font-size: 1.2rem;
+    margin: 0 0.5rem;
     text-transform: uppercase;
 }
 #navigation > li {
@@ -29,7 +33,7 @@
 }
 #navigation > li > a {
     position: relative;
-    padding: 0.5rem 0;
+    padding: 0.8rem 0;
 }
 #navigation > li > a::after {
     content: " ";
@@ -52,12 +56,13 @@
 }
 .social-media {
     display: flex;
-    padding-left: 5rem;
+    padding-left: 2rem;
     border-left: 1px solid rgba(255, 255, 255, 0.1);
 }
 .social-media .icon {
-    margin: auto 1rem;
-    font-size: 1.3rem;
+    margin: auto 1.1rem;
+    font-size: 0.8rem;
+    transform: scale(1.6);
 }
 .dropdown {
     display: none;
