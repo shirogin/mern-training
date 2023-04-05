@@ -85,7 +85,8 @@ h4.subtitle {
 /* statistics */
 #Statistics {
     justify-content: center;
-    padding: 15rem 0 0;
+    overflow: hidden;
+    padding: 15rem 0;
 }
 .stats {
     background-color: var(--purple);
@@ -93,11 +94,11 @@ h4.subtitle {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width: 22rem;
-    height: 22rem;
+    width: 250px;
+    height: 250px;
     transform: rotate(45deg);
+    transform-origin: center;
     position: relative;
-    margin: 0 0rem;
 }
 .stats .content {
     display: flex;
@@ -116,23 +117,23 @@ h4.subtitle {
 }
 
 .stats:nth-child(odd) {
-    margin-top: 16rem;
+    margin-top: 176.775px;
 }
 .stats:not(:first-of-type):not(:last-of-type)::before,
 .stats:not(:first-of-type):not(:last-of-type)::after {
     content: " ";
     border: 1px solid #333333;
-    top: -4.6rem;
-    left: -4.6rem;
-    width: 240%;
-    height: 240%;
+    top: -52px;
+    left: -52px;
+    width: 603px;
+    height: 603px;
     position: absolute;
 }
 .stats:not(:first-of-type):not(:last-of-type)::after {
     top: unset;
     left: unset;
-    bottom: -4.6rem;
-    right: -4.6rem;
+    bottom: -52px;
+    right: -52px;
     border-top: none;
     border-left: none;
 }
