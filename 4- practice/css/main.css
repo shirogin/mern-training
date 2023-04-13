@@ -77,10 +77,66 @@ h4.subtitle {
 
 /* # Gallery  */
 #Gallery {
-    /* display: grid; */
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-auto-rows: 300px;
+    gap: 1rem;
 }
-#video-4 img {
-    transform: translateY(50%);
+.video {
+    position: relative;
+    overflow: hidden;
+}
+.video img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.video > a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1.8rem;
+    border: 1px solid white;
+
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.video-large {
+    grid-column: span 2 / auto;
+}
+.video-tall {
+    grid-row: span 2 / auto;
+}
+.info {
+    background: rgba(0, 0, 0, 0.6);
+    transition: transform 0.3s ease-in-out;
+    padding: 2rem;
+}
+.info h5 {
+    font-size: 2rem;
+    margin: 0;
+}
+.info .tags {
+    display: flex;
+}
+.info .tags p {
+    margin: 0;
+}
+.info .tags p:not(:last-child)::after {
+    content: "/";
+    margin: 0 1rem;
+}
+.video:hover .info {
+    transform: translateY(-100%);
 }
 /* statistics */
 #Statistics {
