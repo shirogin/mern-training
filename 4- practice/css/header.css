@@ -47,3 +47,8 @@ header {
     color: white;
     border-bottom-width: 2px;
 }
+@media screen and (max-width: 600px) {
+    .slider h1.title {
+        font-size: 3.9rem;
+    }
+}

@@ -90,3 +90,10 @@
 #copyright i {
     color: var(--primary-color);
 }
+@media screen and (max-width: 600px) {
+    #social .social-media .icon {
+        width: 2.5rem;
+        height: 2.5rem;
+        font-size: 1rem;
+    }
+}

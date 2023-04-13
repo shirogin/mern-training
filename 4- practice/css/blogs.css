@@ -1,6 +1,6 @@
 /* BLOG */
 #BLOGS {
-    padding: 8rem 0;
+    padding: 8rem 3rem;
     flex-direction: column;
 }
 #BLOGS .section-title {

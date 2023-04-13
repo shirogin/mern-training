@@ -49,8 +49,8 @@ body {
     max-width: 1150px;
     display: flex;
     margin: 0 auto;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
 }
 a.button {
     color: white;
