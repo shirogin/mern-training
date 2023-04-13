@@ -54,12 +54,12 @@
     color: white;
     text-decoration: none;
 }
-.social-media {
+#navbar .social-media {
     display: flex;
     padding-left: 2rem;
     border-left: 1px solid rgba(255, 255, 255, 0.1);
 }
-.social-media .icon {
+#navbar .social-media .icon {
     margin: auto 1.1rem;
     font-size: 0.8rem;
     transform: scale(1.6);

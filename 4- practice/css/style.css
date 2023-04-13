@@ -89,3 +89,12 @@ a.button:hover::after {
     width: calc(100% - 4px);
     height: calc(100% - 4px);
 }
+.readmore {
+    color: white;
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+.readmore i {
+    margin-left: 1rem;
+    font-size: 1.3rem;
+}

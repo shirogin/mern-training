@@ -1,0 +1,88 @@
+/* BLOG */
+#BLOGS {
+    padding: 8rem 0;
+    flex-direction: column;
+}
+#BLOGS .section-title {
+    align-items: center;
+    margin: auto;
+}
+#BLOGS .section-title .title::after {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.slider2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.slider2 .slider-content {
+    width: 100%;
+    overflow-x: hidden;
+    display: flex;
+    gap: 2rem;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+.slider2 .slide {
+    display: flex;
+    flex-shrink: 0;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    flex-direction: column;
+    padding: 4rem 2.5rem;
+    width: max(30%, 250px);
+    align-items: flex-start;
+    transition: opacity 0.3s ease-in;
+    opacity: 0;
+}
+.slider2 .slide.active {
+    opacity: 1;
+}
+.slider2 h1.title {
+    font-size: 5rem;
+    margin-top: 0;
+}
+.slider2 h5.subtitle {
+    font-size: 1.3rem;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+.slider2 .slider-navigation {
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+
+    align-items: center;
+}
+.slider2 .navigation-point {
+    cursor: pointer;
+    width: 0.7rem;
+    height: 0.7rem;
+    background-color: var(--para-color);
+    border-radius: 50%;
+    margin: 0 0.5rem;
+}
+.slider2 .navigation-point.active {
+    background-color: var(--primary-color);
+}
+
+.blog:hover {
+    background-image: var(--image);
+}
+.blog h4 {
+    font-size: 2rem;
+    line-height: 1.5;
+    margin: 0;
+}
+.blog .tags {
+    margin: 1rem 0;
+    display: flex;
+}
+.blog .tags p {
+    margin: 0;
+}
+.blog .tags p:not(:last-child)::after {
+    content: "/";
+    margin: 0 1rem;
+}

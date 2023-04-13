@@ -1,0 +1,92 @@
+#footer {
+    background-color: #0a0119;
+}
+#footer .container {
+    flex-direction: column;
+}
+#social {
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+#social .social-media {
+    display: flex;
+    gap: 1rem;
+}
+#social .social-media .icon {
+    border-radius: 50%;
+    display: flex;
+    width: 3.5rem;
+    height: 3.5rem;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+#footer-navigation {
+    padding: 2rem 0 5rem;
+    display: grid;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+#footer-navigation .title {
+    font-size: 1.5rem;
+    color: white;
+}
+.about,
+.NewsLetter {
+    grid-column: span 2 / auto;
+}
+.navigation-footer ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.navigation-footer ul a {
+    text-decoration: none;
+    color: var(--para-color);
+    font-size: 1.2rem;
+}
+.NewsLetter form {
+    display: flex;
+}
+.NewsLetter form input {
+    outline: none;
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-right: none;
+    color: white;
+    padding: 0 1rem;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1.3rem;
+}
+.NewsLetter form input::placeholder {
+    color: var(--para-color);
+}
+.NewsLetter form button {
+    margin: 0;
+    outline: none;
+    border: none;
+}
+#copyright {
+    text-align: center;
+    padding: 3rem 0;
+    font-size: 1.25rem;
+    font-weight: normal;
+    color: var(--para-color);
+}
+#copyright span,
+#copyright i {
+    color: var(--primary-color);
+}

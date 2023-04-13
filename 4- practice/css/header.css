@@ -7,33 +7,34 @@ header {
     flex-direction: column;
 }
 
-.slider-content {
+.slider .slider-content {
     width: 100%;
     max-width: 575px;
 }
-.slide {
+.slider .slide {
     display: none;
     flex-direction: column;
     padding: 6rem 0;
     align-items: flex-start;
+    transition: transform 0.3s ease-in, opacity 0.3s ease-in;
     transform: translateY(100px);
     opacity: 0;
 }
-.slide.active {
+.slider .slide.active {
     opacity: 1;
     transform: translateY(0);
     display: flex;
 }
-h1.title {
+.slider h1.title {
     font-size: 5rem;
     margin-top: 0;
 }
-h5.subtitle {
+.slider h5.subtitle {
     font-size: 1.3rem;
     letter-spacing: 2px;
     font-weight: 400;
 }
-.navigation-number {
+.slider .navigation-number {
     cursor: pointer;
     padding: 1rem 0;
     margin: 0 0.5rem;
@@ -42,7 +43,7 @@ h5.subtitle {
     color: var(--para-color);
     border-bottom: 1px solid currentColor;
 }
-.navigation-number.active {
+.slider .navigation-number.active {
     color: white;
     border-bottom-width: 2px;
 }
