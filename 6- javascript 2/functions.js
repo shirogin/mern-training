@@ -31,3 +31,26 @@ if (c > 0) {
 var print = console.log;
 
 print(func(a, b));
+/* 
+// Normal  function 
+function Abs(a) {
+    if (a > 0) return a;
+    else -a;
+}
+
+//  function as a variable
+var Abs = function (a) {
+    if (a > 0) return a;
+    else -a;
+};
+ */
+// Normal lambda function
+var Abs = (a) => {
+    if (a > 0) return a;
+    return -a;
+};
+// lambda function in one line
+var Pow = (x, y) => x ** y;
+
+console.log(Abs(30));
+console.log(Pow(4, 3));
